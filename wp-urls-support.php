@@ -3,10 +3,10 @@
 /*
 Plugin Name:    Server Name Support
 Description:    Allows the blog to be accessed with different server names
-Author:         Alex Bachuk
+Author:         Huw Roberts
 Version:        0.0.1
 
-Description: forked from Michal Wojciechowski http://odyniec.net/blog/2010/02/wordpress-blog-and-multiple-server-names/comment-page-1/#comment-58549
+Description: forked from Alex Bachuk https://github.com/abachuk/WordPress-multiple-URL-support/blob/master/wp-urls-support.php
 */
 
 $abs_home = preg_replace('!://[a-z0-9.-]*!', '://' . $_SERVER['SERVER_NAME'], get_option('home'));
